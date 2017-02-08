@@ -1,0 +1,30 @@
+.pic{
+	height:  252px;
+	align: center;
+}
+
+#pic-block{
+	text-align: center;
+	border-style: dotted;
+	border-color: #FFFFF0;
+	padding: 20px;
+	margin-left: 36%;
+	margin-right: 36%;
+}
+
+body{
+	background-color: #4682B4;
+	text-align: center;
+	font-size: 30px;
+	font-family: Impact;
+}
+a{
+	color : #FFFFF0;
+	
+}
+
+h1{
+	color: #FFFFF0;
+	text-align: center;
+	font-size: 50px;
+}
