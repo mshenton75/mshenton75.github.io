@@ -3,15 +3,92 @@
 <html>
 
 <head>
-	<title> Index </title>
-	<meta charset = utf-8 />
-	<link href = "index-style.css" rel = "stylesheet" />
+	<meta charset="utf-8"/>
+	<meta name="viewport" content ="width = device-width, initial-scale = 1"/>
+	<title> Matt Shenton </title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Allan">
+	<style type="text/css">
+	body{
+		background-image: url("background.jpeg");
+	}
+	.jumbotron{
+		background: rgba(192, 192, 192, .5);
+	}
+	.jumbotron .btn-group-vertical{
+		   display:block;
+    margin-left:auto;
+    margin-right:auto;
+	}
+	.page-header h1{
+		font-family: Allan;
+		font-size: 60pt;
+	}
+	.img-responsive{
+		height: 400px;
+		width: 400px;
+	}
+	.btn{
+		background-color: #778899;
+		color: white;
+		font-family: Allan;
+	}
+	#jobs, #skills, #classes, #school{
+		color: white;
+		font-size: 9pt;
+	}
+	p{
+		font-family: Allan;
+		font-size: 18pt;
+	}
+	</style>
 </head>
 
 <body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Matt Shenton</h1>
+			<p><a href="mailto:mshenton75@gmail.com" style="color:black">mshenton75@gmail.com</a></p>
+		</div>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+		<img src="matt.jpg" class="img-responsive img-rounded">
+	</div>
+		<div class="col-lg-5 col-md-5 col-sm-3">
+			<div class="jumbotron hidden-xs">
+			<div class="btn-group-vertical">
+<button type="button" class="btn btn-lg" data-target="#school" data-toggle="collapse">Education</button>
+  <div id="school" class="collapse"></br><ul>
+  	<li>Tufts University, Medford MA<ul><li>Expected Graduation May 2019</li><li>Majoring in Cognitive and Brain Sciences with a focus in Computer Science</li></ul></li>
+  </ul></div>
+  <button type="button" class="btn btn-lg" data-target="#jobs" data-toggle="collapse">Employment History</button>
+  <div id="jobs" class="collapse"></br><ul>
+  	<li><u>Martin Research and Consulting</u>, <i>Research Assistant</i>, June 2017 - August 2017<ul><li>Researched empirically determining malinent</li><li>Conducted study to test malintent-reading devices</li></ul></li>
+	<li><u>Tufts University</u>, <i>Computer Science Teaching Assistant</i>, January 2017 - Present<ul><li>Explain introductory concepts to computer science students</li><li>Gained valuable experience debugging other peopless programs</li><li>Grade labs, homeworks, and projects</li></ul></li> 
+	<li><u>The Bancroft Chophouse</u>, <i>Server Assist</i>, May 2016 - August 2016<ul><li>In charge of clearing tables, setting tables, running food and drinks, and generally assisting the server</li><li>Gained experience working first hand with customers, and meeting high expectations of
+     service and hospitality</li><li>Worked closely with multiple servers, other server assists, as well as chefs and managers</li></ul></li>
+  </ul>
+  </div>
+  <button type="button" class="btn btn-lg" data-target="#skills" data-toggle="collapse">Professional Skills</button>
+  <div id="skills" class="collapse"></br><ul><li>Excellent interpersonal skills</li><li>Strong organizational and problem solving skills</li><li>Strong teamwork skills and experience<ul><li>Communication</li><li>Collaboration</li><li>Reliability</li></ul></li><li>C++, Javascript, HTML, CSS</li><li>Git, NodeJS, Bootstrap, MongoDB</li><li>Knowledgeable about computer science data structures and associated algorithms</li><li>Practice good programming technique (e.g. efficiency, modularity, unit testing)</li><li>Strong debugger</li><li>Comfortable with Microsoft Word, Excel, and Powerpoint</li>
+  </ul>
+  </div>
+  <button type="button" class="btn btn-lg" data-target="#classes" data-toggle="collapse">Relevant Courses</button>
+  <div id="classes" class="collapse"></br><ul>
+  	<li>Computer Science 20: Web Programming</li><li>Computer Science 15: Data Structures</li><li>Computer Science 11: Introduction to Computer Science</li><li>Philosophy 33: Logic</li>
+  </ul></div>
+  <button type="button" class="btn btn-lg" data-target="#classes" data-toggle="collapse"><a href="Matt Shenton Resume.pdf" alt="Matt Shenton's Resume" style="color:white">Link to Resume</a></button>
 
+		</div>
+	</div>
+	</div>
+		</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-
 </html>
 
 
